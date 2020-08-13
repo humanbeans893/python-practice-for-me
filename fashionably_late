@@ -1,0 +1,8 @@
+def fashionably_late(arrivals, name):
+    """Given an ordered list of arrivals to the party and a name, return whether the guest with that
+    name was fashionably late.
+    """
+    pass
+    ind=arrivals.index(name)+1
+    half=int(len(arrivals)/2+0.5)
+    return ind>half and ind<len(arrivals)
